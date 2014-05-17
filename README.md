@@ -6,6 +6,8 @@ To get started download the phar executable and launch it from terminal.
 
 > You can integrate `LicensifyCommand` into your existing Symfony Console based application by adding `eo/licensify` package in your composer.json. See project page on packagist: https://packagist.org/packages/eo/licensify
 
+This project is heavily inspired by https://github.com/schmittjoh/JMSCommandBundle
+
 ## Installation
 
 ```
