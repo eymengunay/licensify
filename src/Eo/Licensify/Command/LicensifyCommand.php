@@ -31,7 +31,7 @@ class LicensifyCommand extends Command
             ->setName('licensify')
             ->setDescription('Automatically add license headers to your PHP source files')
             ->addOption('cwd', 'w', InputOption::VALUE_REQUIRED, 'Current working directory', './')
-            ->addOption('package', 'l', InputOption::VALUE_REQUIRED, 'Package name', 'Licensify')
+            ->addOption('package', 'p', InputOption::VALUE_REQUIRED, 'Package name', 'Licensify')
             ->addOption('author', 'a', InputOption::VALUE_REQUIRED, 'The author to use.', 'Eymen Gunay <eymen@egunay.com>')
         ;
     }
